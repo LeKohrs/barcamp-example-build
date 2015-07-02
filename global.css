@@ -6,11 +6,15 @@
 /* Fonts */
 h1 {
   margin: 10px 0;
+  font-family: "Rokkit", serif;
+  color: #2B4847;
   text-transform: uppercase;
 }
 
 h2 {
   margin: 10px 0;
+  font-family: "Rokkit", serif;
+  color: #2B4847;
 }
 
 /* Header Bar */
