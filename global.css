@@ -1,9 +1,9 @@
-/* General  Styles */ 
+/* General  Styles ----------------------------------------------------------- */ 
 .clearfix {
     overflow: auto;
 }
 
-/* Fonts */
+/* Fonts --------------------------------------------------------------------- */
 h1 {
   margin: 10px 0;
   font-family: "Rokkit", serif;
@@ -17,13 +17,48 @@ h2 {
   color: #2B4847;
 }
 
-/* Header Bar */
-.barcamp--logo {
+h3 {
+  float: left;
+  margin: 0;
+  font-family: "Rokkit", serif;
+  font-size: 60px;
+  color: #6BA236;
+}
+
+h4 {
+  float: left;
+  margin: 0;
+  font-family: "Rokkit", serif;
+  font-size: 40px;
+  color: #6BA236;
+}
+
+h5 {
+  font-size: 28px;
+  color: #394B63;
+  line-height: 40px;
+}
+
+h6 {
+  font-size: 25px;
+}
+
+
+p {
+  font-size: 16px;
+  color: #394B63;
+  line-height: 30px;
+}
+
+
+
+/* Header Bar -------------------------------- */
+.barcamp-logo {
   padding: 10px 0 10px 10px;
   background: #2B4847;
 }
 
-.barcamp--logo__graphic {
+.barcamp-logo__graphic {
   width: 200px;
 }
 
@@ -33,8 +68,8 @@ h2 {
   margin-right: 10px;
 }
 
-/* Header Scene */
-.header--image {
+/* Header Scene------------------------------- */
+.header__image {
   position: relative;
   height: 600px;
   background: url('assets/trees.png'), url('assets/lake.png'), url('assets/mountains.jpg');
@@ -43,12 +78,12 @@ h2 {
   text-align: center;
 }
 
-.image--container {
+.header__image__container {
   width: 250px;
   margin: 0 auto;
 }
 
-.hero--logo {
+.hero-logo {
   width: 100%;
   margin-top: 50px;
 }
@@ -57,7 +92,8 @@ h2 {
   width: 70%
 }
 
-/* AIGA Bar */
+
+/* AIGA Bar ---------------------------------- */
 .aiga {
   padding: 5px 0;
   background:#2B4847;
@@ -67,4 +103,47 @@ h2 {
 .aiga--graphic {
   width: 90%;
   max-width: 350px;
+}
+
+
+/*Top Register Button ----------------------- */
+.register--top {
+  height: 155px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  background: url('assets/buttonLines.png') no-repeat;
+  background-position: 50% 50%; 
+  background-size: contain;
+  text-align: center;
+}
+
+.register--top__bird {
+  width: 10%;
+  margin-bottom: -5px;
+}
+
+.register--top__button {
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #6BA236;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+}
+
+.register--top__price {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.intro {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.divider {
+  height: 15px;
+  border-top: dashed 4px #DBD2CB;
+  margin: 100px 0;
 }
