@@ -166,13 +166,23 @@ p {
   max-width: 250px;
 }
 
-.entrepreneur,
+/*.entrepreneur,
 .creative,
 .technology,
 .kitchen-sink {
   margin-top: 50px;
   padding-bottom: 50px;
   border-bottom: solid 2px #DBD2CB;
+}*/
+
+.talk-type {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 2px #DBD2CB;
+}
+
+.talk-type--bottom {
+  border-bottom: none;
 }
 
 .entrepreneur {
