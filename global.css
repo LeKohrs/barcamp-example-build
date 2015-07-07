@@ -67,7 +67,7 @@ p {
   width: 200px;
 }
 
-.menu {
+.barcamp-logo__menu {
   float: right;
   margin-top: 8px;
   margin-right: 10px;
@@ -88,12 +88,12 @@ p {
   margin: 0 auto;
 }
 
-.hero-logo {
+.header-image__hero-logo {
   width: 100%;
   margin-top: 50px;
 }
 
-.date {
+.header-image__date {
   width: 70%
 }
 
@@ -105,7 +105,7 @@ p {
   text-align: center;
 }
 
-.aiga--graphic {
+.aiga-graphic {
   width: 90%;
   max-width: 350px;
 }
